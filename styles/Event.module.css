@@ -1,0 +1,50 @@
+.container {
+    background: #EFF0F4;
+}
+
+.main {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.or {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1BA9BE;
+}
+
+.event_label {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16;
+}
+
+.qr_label {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: .8rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}

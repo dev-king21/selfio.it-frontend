@@ -1,0 +1,173 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html,
+body,
+body>div:first-child,
+div#__next,
+div#__next>div {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.placeholder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.full-absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-color: #9C27B0B0;
+  background: -moz-linear-gradient(top, #9C27B0B0, #1BA9BEB0);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#9C27B0B0), to(#1BA9BEB0));
+  background: -webkit-linear-gradient(top, #9C27B0B0, #1BA9BEB0);
+  background: -o-linear-gradient(top, #9C27B0B0, #1BA9BEB0);
+  background: linear-gradient(to bottom, #9C27B0B0, #1BA9BEB0);
+}
+
+.flex-col {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-title {
+  margin-top: 2rem;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.flex-col-bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.fab {
+
+  margin-bottom: 2rem;
+}
+
+.webcam-wrapper {
+  position: absolute;
+  overflow: hidden;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.webcam-wrapper .webcam {
+  width: 100%;
+}
+
+.webcam {
+  position: relative;
+}
+
+.photo-canvas {
+  position: relative;
+}
+
+.overlay-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+
+}
+
+.overlay-frame {
+  position: absolute;
+  padding-top: 3rem !important;
+  padding-bottom: 6rem !important;
+  width: 100%;
+  height: 100%;
+}
+
+.options-wrapper {
+  position: absolute;
+  padding-top: 3rem !important;
+  padding-bottom: 6rem !important;
+  right: 0;
+  width: 4rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.options-btn {
+  margin-bottom: 2rem;
+}
+
+.photo-control-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.photo-control {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.circular-progress-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-timer {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

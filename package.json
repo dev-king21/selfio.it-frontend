@@ -1,0 +1,35 @@
+{
+  "name": "selfio-next",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 10.10.10.70",
+    "dev-https": "local-ssl-proxy --hostname 10.10.10.70 --key key.pem --cert cert.pem --source 4000 --target 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.3.0",
+    "axios": "^0.25.0",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-circular-progressbar": "^2.0.4",
+    "react-dom": "17.0.2",
+    "react-qr-reader": "^2.2.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-webcam": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.10",
+    "@types/react": "17.0.38",
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8",
+    "typescript": "4.5.5"
+  }
+}
